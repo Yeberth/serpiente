@@ -1,0 +1,44 @@
+# Directorios de compilación
+build/
+build-*/
+cmake-build-*/
+
+# Archivos generados por CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+build.ninja
+.ninja_deps
+.ninja_log
+compile_commands.json
+
+# Archivos generados por Qt
+*_autogen/
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+
+# Configuración local del editor
+.vscode/*
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# Archivos temporales y del sistema
+*.o
+*.obj
+*.exe
+*.dll
+*.user
+*.user.*
+*.log
+*.tmp
+*~
+.DS_Store
+Thumbs.db
+
+# Salidas generadas
+dist/
+release/
+debug/
