@@ -1,26 +1,26 @@
 [
 {
   "directory": "/home/yeberth/Documentos/proyect/serpiente/build",
-  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/yeberth/Documentos/proyect/serpiente/build/ventana_qt_autogen/include -I/home/yeberth/Documentos/proyect/serpiente -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtMultimedia -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -g -std=gnu++17 -fPIC -o CMakeFiles/ventana_qt.dir/ventana_qt_autogen/mocs_compilation.cpp.o -c /home/yeberth/Documentos/proyect/serpiente/build/ventana_qt_autogen/mocs_compilation.cpp",
-  "file": "/home/yeberth/Documentos/proyect/serpiente/build/ventana_qt_autogen/mocs_compilation.cpp",
-  "output": "CMakeFiles/ventana_qt.dir/ventana_qt_autogen/mocs_compilation.cpp.o"
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/yeberth/Documentos/proyect/serpiente/build/Serpiente_autogen/include -I/home/yeberth/Documentos/proyect/serpiente -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtMultimedia -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -g -std=gnu++17 -fPIC -o CMakeFiles/Serpiente.dir/Serpiente_autogen/mocs_compilation.cpp.o -c /home/yeberth/Documentos/proyect/serpiente/build/Serpiente_autogen/mocs_compilation.cpp",
+  "file": "/home/yeberth/Documentos/proyect/serpiente/build/Serpiente_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/Serpiente.dir/Serpiente_autogen/mocs_compilation.cpp.o"
 },
 {
   "directory": "/home/yeberth/Documentos/proyect/serpiente/build",
-  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/yeberth/Documentos/proyect/serpiente/build/ventana_qt_autogen/include -I/home/yeberth/Documentos/proyect/serpiente -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtMultimedia -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -g -std=gnu++17 -fPIC -o CMakeFiles/ventana_qt.dir/main.cpp.o -c /home/yeberth/Documentos/proyect/serpiente/main.cpp",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/yeberth/Documentos/proyect/serpiente/build/Serpiente_autogen/include -I/home/yeberth/Documentos/proyect/serpiente -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtMultimedia -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -g -std=gnu++17 -fPIC -o CMakeFiles/Serpiente.dir/main.cpp.o -c /home/yeberth/Documentos/proyect/serpiente/main.cpp",
   "file": "/home/yeberth/Documentos/proyect/serpiente/main.cpp",
-  "output": "CMakeFiles/ventana_qt.dir/main.cpp.o"
+  "output": "CMakeFiles/Serpiente.dir/main.cpp.o"
 },
 {
   "directory": "/home/yeberth/Documentos/proyect/serpiente/build",
-  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/yeberth/Documentos/proyect/serpiente/build/ventana_qt_autogen/include -I/home/yeberth/Documentos/proyect/serpiente -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtMultimedia -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -g -std=gnu++17 -fPIC -o CMakeFiles/ventana_qt.dir/Ventana.cpp.o -c /home/yeberth/Documentos/proyect/serpiente/Ventana.cpp",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/yeberth/Documentos/proyect/serpiente/build/Serpiente_autogen/include -I/home/yeberth/Documentos/proyect/serpiente -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtMultimedia -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -g -std=gnu++17 -fPIC -o CMakeFiles/Serpiente.dir/Ventana.cpp.o -c /home/yeberth/Documentos/proyect/serpiente/Ventana.cpp",
   "file": "/home/yeberth/Documentos/proyect/serpiente/Ventana.cpp",
-  "output": "CMakeFiles/ventana_qt.dir/Ventana.cpp.o"
+  "output": "CMakeFiles/Serpiente.dir/Ventana.cpp.o"
 },
 {
   "directory": "/home/yeberth/Documentos/proyect/serpiente/build",
-  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/yeberth/Documentos/proyect/serpiente/build/ventana_qt_autogen/include -I/home/yeberth/Documentos/proyect/serpiente -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtMultimedia -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -g -std=gnu++17 -fPIC -o CMakeFiles/ventana_qt.dir/Serpiente.cpp.o -c /home/yeberth/Documentos/proyect/serpiente/Serpiente.cpp",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/yeberth/Documentos/proyect/serpiente/build/Serpiente_autogen/include -I/home/yeberth/Documentos/proyect/serpiente -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtMultimedia -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -g -std=gnu++17 -fPIC -o CMakeFiles/Serpiente.dir/Serpiente.cpp.o -c /home/yeberth/Documentos/proyect/serpiente/Serpiente.cpp",
   "file": "/home/yeberth/Documentos/proyect/serpiente/Serpiente.cpp",
-  "output": "CMakeFiles/ventana_qt.dir/Serpiente.cpp.o"
+  "output": "CMakeFiles/Serpiente.dir/Serpiente.cpp.o"
 }
 ]

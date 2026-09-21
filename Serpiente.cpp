@@ -18,11 +18,11 @@ Serpiente::Serpiente(QWidget *parent) : QWidget(parent) {
     const QString audioPath = QCoreApplication::applicationDirPath() + "/audio/";
     ambientSound.setMedia(QUrl::fromLocalFile(audioPath + "ambient.wav"));
     ambientSound.setVolume(20);
-    eatSound.setMedia(QUrl::fromLocalFile(audioPath + "eat.mp3"));
+    eatSound.setMedia(QUrl::fromLocalFile(audioPath + "eat.wav"));
     eatSound.setVolume(80);
     gameOverSound.setMedia(QUrl::fromLocalFile(audioPath + "Gunshot1.wav"));
     gameOverSound.setVolume(50);
-    songButton.setMedia(QUrl::fromLocalFile(audioPath + "buttom.mp3"));
+    songButton.setMedia(QUrl::fromLocalFile(audioPath + "buttom.wav"));
     songButton.setVolume(80);
 
     ambientSound.play();

@@ -41,62 +41,62 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /home/yeberth/Documentos/proyect/serpiente/build/
 # =============================================================================
-# Object build statements for EXECUTABLE target ventana_qt
+# Object build statements for EXECUTABLE target Serpiente
 
 
 #############################################
-# Order-only phony target for ventana_qt
+# Order-only phony target for Serpiente
 
-build cmake_object_order_depends_target_ventana_qt: phony || ventana_qt_autogen ventana_qt_autogen/mocs_compilation.cpp ventana_qt_autogen/timestamp ventana_qt_autogen_timestamp_deps
+build cmake_object_order_depends_target_Serpiente: phony || Serpiente_autogen Serpiente_autogen/mocs_compilation.cpp Serpiente_autogen/timestamp Serpiente_autogen_timestamp_deps
 
-build CMakeFiles/ventana_qt.dir/ventana_qt_autogen/mocs_compilation.cpp.o: CXX_COMPILER__ventana_qt_unscanned_Debug /home/yeberth/Documentos/proyect/serpiente/build/ventana_qt_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_ventana_qt
+build CMakeFiles/Serpiente.dir/Serpiente_autogen/mocs_compilation.cpp.o: CXX_COMPILER__Serpiente_unscanned_Debug /home/yeberth/Documentos/proyect/serpiente/build/Serpiente_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_Serpiente
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles/ventana_qt.dir/ventana_qt_autogen/mocs_compilation.cpp.o.d
+  DEP_FILE = CMakeFiles/Serpiente.dir/Serpiente_autogen/mocs_compilation.cpp.o.d
   FLAGS = -g -std=gnu++17 -fPIC
-  INCLUDES = -I/home/yeberth/Documentos/proyect/serpiente/build/ventana_qt_autogen/include -I/home/yeberth/Documentos/proyect/serpiente -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtMultimedia -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets
-  OBJECT_DIR = CMakeFiles/ventana_qt.dir
-  OBJECT_FILE_DIR = CMakeFiles/ventana_qt.dir/ventana_qt_autogen
+  INCLUDES = -I/home/yeberth/Documentos/proyect/serpiente/build/Serpiente_autogen/include -I/home/yeberth/Documentos/proyect/serpiente -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtMultimedia -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets
+  OBJECT_DIR = CMakeFiles/Serpiente.dir
+  OBJECT_FILE_DIR = CMakeFiles/Serpiente.dir/Serpiente_autogen
 
-build CMakeFiles/ventana_qt.dir/main.cpp.o: CXX_COMPILER__ventana_qt_unscanned_Debug /home/yeberth/Documentos/proyect/serpiente/main.cpp || cmake_object_order_depends_target_ventana_qt
+build CMakeFiles/Serpiente.dir/main.cpp.o: CXX_COMPILER__Serpiente_unscanned_Debug /home/yeberth/Documentos/proyect/serpiente/main.cpp || cmake_object_order_depends_target_Serpiente
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles/ventana_qt.dir/main.cpp.o.d
+  DEP_FILE = CMakeFiles/Serpiente.dir/main.cpp.o.d
   FLAGS = -g -std=gnu++17 -fPIC
-  INCLUDES = -I/home/yeberth/Documentos/proyect/serpiente/build/ventana_qt_autogen/include -I/home/yeberth/Documentos/proyect/serpiente -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtMultimedia -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets
-  OBJECT_DIR = CMakeFiles/ventana_qt.dir
-  OBJECT_FILE_DIR = CMakeFiles/ventana_qt.dir
+  INCLUDES = -I/home/yeberth/Documentos/proyect/serpiente/build/Serpiente_autogen/include -I/home/yeberth/Documentos/proyect/serpiente -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtMultimedia -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets
+  OBJECT_DIR = CMakeFiles/Serpiente.dir
+  OBJECT_FILE_DIR = CMakeFiles/Serpiente.dir
 
-build CMakeFiles/ventana_qt.dir/Ventana.cpp.o: CXX_COMPILER__ventana_qt_unscanned_Debug /home/yeberth/Documentos/proyect/serpiente/Ventana.cpp || cmake_object_order_depends_target_ventana_qt
+build CMakeFiles/Serpiente.dir/Ventana.cpp.o: CXX_COMPILER__Serpiente_unscanned_Debug /home/yeberth/Documentos/proyect/serpiente/Ventana.cpp || cmake_object_order_depends_target_Serpiente
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles/ventana_qt.dir/Ventana.cpp.o.d
+  DEP_FILE = CMakeFiles/Serpiente.dir/Ventana.cpp.o.d
   FLAGS = -g -std=gnu++17 -fPIC
-  INCLUDES = -I/home/yeberth/Documentos/proyect/serpiente/build/ventana_qt_autogen/include -I/home/yeberth/Documentos/proyect/serpiente -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtMultimedia -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets
-  OBJECT_DIR = CMakeFiles/ventana_qt.dir
-  OBJECT_FILE_DIR = CMakeFiles/ventana_qt.dir
+  INCLUDES = -I/home/yeberth/Documentos/proyect/serpiente/build/Serpiente_autogen/include -I/home/yeberth/Documentos/proyect/serpiente -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtMultimedia -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets
+  OBJECT_DIR = CMakeFiles/Serpiente.dir
+  OBJECT_FILE_DIR = CMakeFiles/Serpiente.dir
 
-build CMakeFiles/ventana_qt.dir/Serpiente.cpp.o: CXX_COMPILER__ventana_qt_unscanned_Debug /home/yeberth/Documentos/proyect/serpiente/Serpiente.cpp || cmake_object_order_depends_target_ventana_qt
+build CMakeFiles/Serpiente.dir/Serpiente.cpp.o: CXX_COMPILER__Serpiente_unscanned_Debug /home/yeberth/Documentos/proyect/serpiente/Serpiente.cpp || cmake_object_order_depends_target_Serpiente
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles/ventana_qt.dir/Serpiente.cpp.o.d
+  DEP_FILE = CMakeFiles/Serpiente.dir/Serpiente.cpp.o.d
   FLAGS = -g -std=gnu++17 -fPIC
-  INCLUDES = -I/home/yeberth/Documentos/proyect/serpiente/build/ventana_qt_autogen/include -I/home/yeberth/Documentos/proyect/serpiente -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtMultimedia -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets
-  OBJECT_DIR = CMakeFiles/ventana_qt.dir
-  OBJECT_FILE_DIR = CMakeFiles/ventana_qt.dir
+  INCLUDES = -I/home/yeberth/Documentos/proyect/serpiente/build/Serpiente_autogen/include -I/home/yeberth/Documentos/proyect/serpiente -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtMultimedia -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets
+  OBJECT_DIR = CMakeFiles/Serpiente.dir
+  OBJECT_FILE_DIR = CMakeFiles/Serpiente.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target ventana_qt
+# Link build statements for EXECUTABLE target Serpiente
 
 
 #############################################
-# Link the executable ventana_qt
+# Link the executable Serpiente
 
-build ventana_qt: CXX_EXECUTABLE_LINKER__ventana_qt_Debug CMakeFiles/ventana_qt.dir/ventana_qt_autogen/mocs_compilation.cpp.o CMakeFiles/ventana_qt.dir/main.cpp.o CMakeFiles/ventana_qt.dir/Ventana.cpp.o CMakeFiles/ventana_qt.dir/Serpiente.cpp.o | /usr/lib/x86_64-linux-gnu/libQt5Multimedia.so.5.15.13 /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13 /usr/lib/x86_64-linux-gnu/libQt5Network.so.5.15.13 /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.13 /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13 || ventana_qt_autogen ventana_qt_autogen_timestamp_deps
+build Serpiente: CXX_EXECUTABLE_LINKER__Serpiente_Debug CMakeFiles/Serpiente.dir/Serpiente_autogen/mocs_compilation.cpp.o CMakeFiles/Serpiente.dir/main.cpp.o CMakeFiles/Serpiente.dir/Ventana.cpp.o CMakeFiles/Serpiente.dir/Serpiente.cpp.o | /usr/lib/x86_64-linux-gnu/libQt5Multimedia.so.5.15.13 /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13 /usr/lib/x86_64-linux-gnu/libQt5Network.so.5.15.13 /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.13 /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13 || Serpiente_autogen Serpiente_autogen_timestamp_deps
   FLAGS = -g
   LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libQt5Multimedia.so.5.15.13  /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13  /usr/lib/x86_64-linux-gnu/libQt5Network.so.5.15.13  /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.13  /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13
-  OBJECT_DIR = CMakeFiles/ventana_qt.dir
+  OBJECT_DIR = CMakeFiles/Serpiente.dir
   POST_BUILD = cd /home/yeberth/Documentos/proyect/serpiente/build && /usr/bin/cmake -E copy_directory /home/yeberth/Documentos/proyect/serpiente/audio /home/yeberth/Documentos/proyect/serpiente/build/audio
   PRE_LINK = :
-  TARGET_FILE = ventana_qt
-  TARGET_PDB = ventana_qt.dbg
+  TARGET_FILE = Serpiente
+  TARGET_PDB = Serpiente.dbg
 
 
 #############################################
@@ -165,37 +165,37 @@ build install/strip: phony CMakeFiles/install/strip.util
 
 
 #############################################
-# Utility command for ventana_qt_autogen_timestamp_deps
+# Utility command for Serpiente_autogen_timestamp_deps
 
-build ventana_qt_autogen_timestamp_deps: phony CMakeFiles/ventana_qt_autogen_timestamp_deps
-
-
-#############################################
-# Utility command for ventana_qt_autogen
-
-build ventana_qt_autogen: phony CMakeFiles/ventana_qt_autogen ventana_qt_autogen/timestamp ventana_qt_autogen/mocs_compilation.cpp ventana_qt_autogen_timestamp_deps
+build Serpiente_autogen_timestamp_deps: phony CMakeFiles/Serpiente_autogen_timestamp_deps
 
 
 #############################################
-# Custom command for ventana_qt_autogen/timestamp
+# Utility command for Serpiente_autogen
 
-build ventana_qt_autogen/timestamp ventana_qt_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}ventana_qt_autogen/timestamp ${cmake_ninja_workdir}ventana_qt_autogen/mocs_compilation.cpp: CUSTOM_COMMAND /usr/lib/qt5/bin/moc || ventana_qt_autogen_timestamp_deps
-  COMMAND = cd /home/yeberth/Documentos/proyect/serpiente/build && /usr/bin/cmake -E cmake_autogen /home/yeberth/Documentos/proyect/serpiente/build/CMakeFiles/ventana_qt_autogen.dir/AutogenInfo.json Debug && /usr/bin/cmake -E touch /home/yeberth/Documentos/proyect/serpiente/build/ventana_qt_autogen/timestamp && /usr/bin/cmake -E cmake_transform_depfile Ninja gccdepfile /home/yeberth/Documentos/proyect/serpiente /home/yeberth/Documentos/proyect/serpiente /home/yeberth/Documentos/proyect/serpiente/build /home/yeberth/Documentos/proyect/serpiente/build /home/yeberth/Documentos/proyect/serpiente/build/ventana_qt_autogen/deps /home/yeberth/Documentos/proyect/serpiente/build/CMakeFiles/d/11ae8452d899342d8a0942121510fa54a6ec9fd64f4edbf8896f365d27916a39.d
-  DESC = Automatic MOC for target ventana_qt
-  depfile = /home/yeberth/Documentos/proyect/serpiente/build/CMakeFiles/d/11ae8452d899342d8a0942121510fa54a6ec9fd64f4edbf8896f365d27916a39.d
+build Serpiente_autogen: phony CMakeFiles/Serpiente_autogen Serpiente_autogen/timestamp Serpiente_autogen/mocs_compilation.cpp Serpiente_autogen_timestamp_deps
+
+
+#############################################
+# Custom command for Serpiente_autogen/timestamp
+
+build Serpiente_autogen/timestamp Serpiente_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}Serpiente_autogen/timestamp ${cmake_ninja_workdir}Serpiente_autogen/mocs_compilation.cpp: CUSTOM_COMMAND /usr/lib/qt5/bin/moc || Serpiente_autogen_timestamp_deps
+  COMMAND = cd /home/yeberth/Documentos/proyect/serpiente/build && /usr/bin/cmake -E cmake_autogen /home/yeberth/Documentos/proyect/serpiente/build/CMakeFiles/Serpiente_autogen.dir/AutogenInfo.json Debug && /usr/bin/cmake -E touch /home/yeberth/Documentos/proyect/serpiente/build/Serpiente_autogen/timestamp && /usr/bin/cmake -E cmake_transform_depfile Ninja gccdepfile /home/yeberth/Documentos/proyect/serpiente /home/yeberth/Documentos/proyect/serpiente /home/yeberth/Documentos/proyect/serpiente/build /home/yeberth/Documentos/proyect/serpiente/build /home/yeberth/Documentos/proyect/serpiente/build/Serpiente_autogen/deps /home/yeberth/Documentos/proyect/serpiente/build/CMakeFiles/d/4b2acb16d6ebfaf6b6bbc0f8c31e78582b6a0a246e4c8907c432bd27d32e4901.d
+  DESC = Automatic MOC for target Serpiente
+  depfile = /home/yeberth/Documentos/proyect/serpiente/build/CMakeFiles/d/4b2acb16d6ebfaf6b6bbc0f8c31e78582b6a0a246e4c8907c432bd27d32e4901.d
   restat = 1
 
 
 #############################################
-# Phony custom command for CMakeFiles/ventana_qt_autogen_timestamp_deps
+# Phony custom command for CMakeFiles/Serpiente_autogen_timestamp_deps
 
-build CMakeFiles/ventana_qt_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/ventana_qt_autogen_timestamp_deps: phony /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13 /usr/lib/qt5/bin/moc /usr/lib/x86_64-linux-gnu/libQt5Multimedia.so.5.15.13
+build CMakeFiles/Serpiente_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/Serpiente_autogen_timestamp_deps: phony /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13 /usr/lib/qt5/bin/moc /usr/lib/x86_64-linux-gnu/libQt5Multimedia.so.5.15.13
 
 
 #############################################
-# Phony custom command for CMakeFiles/ventana_qt_autogen
+# Phony custom command for CMakeFiles/Serpiente_autogen
 
-build CMakeFiles/ventana_qt_autogen | ${cmake_ninja_workdir}CMakeFiles/ventana_qt_autogen: phony ventana_qt_autogen/timestamp || ventana_qt_autogen_timestamp_deps
+build CMakeFiles/Serpiente_autogen | ${cmake_ninja_workdir}CMakeFiles/Serpiente_autogen: phony Serpiente_autogen/timestamp || Serpiente_autogen_timestamp_deps
 
 # =============================================================================
 # Target aliases.
@@ -208,7 +208,7 @@ build CMakeFiles/ventana_qt_autogen | ${cmake_ninja_workdir}CMakeFiles/ventana_q
 #############################################
 # Folder: /home/yeberth/Documentos/proyect/serpiente/build
 
-build all: phony ventana_qt
+build all: phony Serpiente
 
 # =============================================================================
 # Built-in targets

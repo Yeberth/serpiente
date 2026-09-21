@@ -8,7 +8,7 @@ set(CMAKE_AUTOMOC ON)
 find_package(Qt5 REQUIRED COMPONENTS Multimedia Widgets)
 
 add_executable(
-    ventana_qt
+    Serpiente
     WIN32
     main.cpp
     Ventana.h
@@ -17,14 +17,14 @@ add_executable(
     Serpiente.cpp
 )
 
-target_include_directories(ventana_qt PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})
-target_link_libraries(ventana_qt PRIVATE Qt5::Multimedia Qt5::Widgets)
+target_include_directories(Serpiente PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})
+target_link_libraries(Serpiente PRIVATE Qt5::Multimedia Qt5::Widgets)
 
-install(TARGETS ventana_qt RUNTIME DESTINATION .)
+install(TARGETS Serpiente RUNTIME DESTINATION .)
 install(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/audio DESTINATION .)
 
-add_custom_command(TARGET ventana_qt POST_BUILD
+add_custom_command(TARGET Serpiente POST_BUILD
     COMMAND ${CMAKE_COMMAND} -E copy_directory
             ${CMAKE_CURRENT_SOURCE_DIR}/audio
-            $<TARGET_FILE_DIR:ventana_qt>/audio
+            $<TARGET_FILE_DIR:Serpiente>/audio
 )
