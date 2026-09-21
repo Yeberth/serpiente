@@ -189,7 +189,7 @@ build ventana_qt_autogen/timestamp ventana_qt_autogen/mocs_compilation.cpp | ${c
 #############################################
 # Phony custom command for CMakeFiles/ventana_qt_autogen_timestamp_deps
 
-build CMakeFiles/ventana_qt_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/ventana_qt_autogen_timestamp_deps: phony /usr/lib/x86_64-linux-gnu/libQt5Multimedia.so.5.15.13 /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13 /usr/lib/qt5/bin/moc
+build CMakeFiles/ventana_qt_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/ventana_qt_autogen_timestamp_deps: phony /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13 /usr/lib/qt5/bin/moc /usr/lib/x86_64-linux-gnu/libQt5Multimedia.so.5.15.13
 
 
 #############################################
