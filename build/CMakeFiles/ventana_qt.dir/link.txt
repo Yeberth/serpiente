@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/ventana_qt.dir/ventana_qt_autogen/mocs_compilation.cpp.o CMakeFiles/ventana_qt.dir/main.cpp.o CMakeFiles/ventana_qt.dir/Ventana.cpp.o -o ventana_qt  /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13 /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.13 /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13 

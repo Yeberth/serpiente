@@ -1,0 +1,9 @@
+/home/yeberth/Documentos/proyect/serpiente/build/CMakeFiles/ventana_qt.dir
+/home/yeberth/Documentos/proyect/serpiente/build/CMakeFiles/edit_cache.dir
+/home/yeberth/Documentos/proyect/serpiente/build/CMakeFiles/rebuild_cache.dir
+/home/yeberth/Documentos/proyect/serpiente/build/CMakeFiles/list_install_components.dir
+/home/yeberth/Documentos/proyect/serpiente/build/CMakeFiles/install.dir
+/home/yeberth/Documentos/proyect/serpiente/build/CMakeFiles/install/local.dir
+/home/yeberth/Documentos/proyect/serpiente/build/CMakeFiles/install/strip.dir
+/home/yeberth/Documentos/proyect/serpiente/build/CMakeFiles/ventana_qt_autogen_timestamp_deps.dir
+/home/yeberth/Documentos/proyect/serpiente/build/CMakeFiles/ventana_qt_autogen.dir
