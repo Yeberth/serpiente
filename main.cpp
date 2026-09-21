@@ -2,7 +2,7 @@
 
 /*
     Author: Yeberth Martinez
-    Creditos: @zapsap0853 audios
+    Creditos: @zapsap0853 musica
     descripcion: Juego de la serpiente en C++ usando Qt
 */
 
