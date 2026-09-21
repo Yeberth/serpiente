@@ -32,10 +32,10 @@ cmake --build "%BUILD_DIR%" --config Release
 if errorlevel 1 exit /b 1
 
 windeployqt --release --multimedia ^
-    "%BUILD_DIR%\Release\ventana_qt.exe"
+    "%BUILD_DIR%\Release\Serpiente.exe"
 if errorlevel 1 exit /b 1
 
 echo.
 echo Ejecutable creado:
-echo %BUILD_DIR%\Release\ventana_qt.exe
+echo %BUILD_DIR%\Release\Serpiente.exe
 exit /b 0

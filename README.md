@@ -47,13 +47,13 @@ cmake --build build -j2
 El ejecutable se genera en:
 
 ```text
-build/ventana_qt
+build/Serpiente
 ```
 
 ## Ejecutar en Linux
 
 ```bash
-./build/ventana_qt
+./build/Serpiente
 ```
 
 Los archivos de audio se copian automáticamente a `build/audio/` durante la compilación.
@@ -83,7 +83,7 @@ El script configura el proyecto, compila en modo `Release` y ejecuta `windeployq
 El ejecutable se genera en:
 
 ```text
-build-windows\Release\ventana_qt.exe
+build-windows\Release\Serpiente.exe
 ```
 
 ## Controles
