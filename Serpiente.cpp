@@ -11,12 +11,11 @@ Serpiente::Serpiente(QWidget *parent) : QWidget(parent) {
     resize(400, 300);
     timer = new QTimer(this);
     connect(timer, &QTimer::timeout, this, &Serpiente::moveSnake);
-    timer->start(100); // Move every 100 ms
-    snake.append(QPoint(50, playTop + 10)); // Initial position
-    gameClock.start();
 
     const QString audioPath = QCoreApplication::applicationDirPath() + "/audio/";
-    ambientSound.setMedia(QUrl::fromLocalFile(audioPath + "ambient.wav"));
+    ambientPlaylist.addMedia(QUrl::fromLocalFile(audioPath + "ambient.wav"));
+    ambientPlaylist.setPlaybackMode(QMediaPlaylist::Loop);
+    ambientSound.setPlaylist(&ambientPlaylist);
     ambientSound.setVolume(20);
     eatSound.setMedia(QUrl::fromLocalFile(audioPath + "eat.wav"));
     eatSound.setVolume(80);
@@ -25,8 +24,49 @@ Serpiente::Serpiente(QWidget *parent) : QWidget(parent) {
     songButton.setMedia(QUrl::fromLocalFile(audioPath + "buttom.wav"));
     songButton.setVolume(80);
 
-    ambientSound.play();
+    playButton = new QPushButton("Play", this);
+    retryButton = new QPushButton("Reintentar", this);
+    playButton->setFixedSize(120, 36);
+    retryButton->setFixedSize(120, 36);
+    connect(playButton, &QPushButton::clicked, this, &Serpiente::startGame);
+    connect(retryButton, &QPushButton::clicked, this, &Serpiente::retryGame);
+    retryButton->hide();
+    resizeEvent(nullptr);
+}
+
+void Serpiente::startGame() {
+    snake.clear();
+    snake.append(QPoint(50, playTop + 10));
+    food = QPoint(-10, -10);
+    direction = 1;
+    gameOver = false;
+    elapsedSeconds = 0;
+    score = 0;
+    gameClock.restart();
     generateFood();
+    timer->start(100);
+    ambientSound.play();
+    playButton->hide();
+    retryButton->hide();
+    setFocus();
+    update();
+}
+
+void Serpiente::retryGame() {
+    startGame();
+}
+
+void Serpiente::resizeEvent(QResizeEvent *event) {
+    if (event) {
+        QWidget::resizeEvent(event);
+    }
+
+    if (playButton && retryButton) {
+        const int buttonX = (width() - playButton->width()) / 2;
+        const int buttonY = (height() - playButton->height()) / 2;
+        playButton->move(buttonX, buttonY);
+        retryButton->move(buttonX, buttonY + 48);
+    }
 }
 
 void Serpiente::keyPressEvent(QKeyEvent *event) {
@@ -129,7 +169,8 @@ void Serpiente::moveSnake() {
         gameOverSound.stop();
         gameOverSound.setPosition(0);
         gameOverSound.play();
-        ambientSound.stop();
+        retryButton->show();
+        retryButton->raise();
         update();
         return;
     }
