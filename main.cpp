@@ -10,6 +10,7 @@
 #include "Ventana.h"
 
 int main(int argc, char *argv[]) {
+    qputenv("QT_QPA_PLATFORM", "xcb");
     QApplication app(argc, argv);
     Ventana ventana;
     ventana.show();

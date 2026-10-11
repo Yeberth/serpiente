@@ -6,8 +6,6 @@
 #include <QKeyEvent>
 #include <QPainter>
 #include <QRandomGenerator>
-#include <QMediaPlayer>
-#include <QMediaPlaylist>
 #include <QSoundEffect>
 #include <QElapsedTimer>
 #include <QPushButton>
@@ -42,11 +40,10 @@ private:
     bool gameOver = false;
     int elapsedSeconds = 0;
     int score = 0;
-    QMediaPlayer eatSound;
-    QMediaPlayer gameOverSound;
-    QMediaPlayer songButton;
-    QMediaPlaylist ambientPlaylist;
-    QMediaPlayer ambientSound;
+    QSoundEffect eatSound;
+    QSoundEffect gameOverSound;
+    QSoundEffect songButton;
+    QSoundEffect ambientSound;
     QPushButton *playButton;
     QPushButton *retryButton;
 };

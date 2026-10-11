@@ -12,17 +12,28 @@ Serpiente::Serpiente(QWidget *parent) : QWidget(parent) {
     timer = new QTimer(this);
     connect(timer, &QTimer::timeout, this, &Serpiente::moveSnake);
 
-    const QString audioPath = QCoreApplication::applicationDirPath() + "/audio/";
-    ambientPlaylist.addMedia(QUrl::fromLocalFile(audioPath + "ambient.wav"));
-    ambientPlaylist.setPlaybackMode(QMediaPlaylist::Loop);
-    ambientSound.setPlaylist(&ambientPlaylist);
-    ambientSound.setVolume(20);
-    eatSound.setMedia(QUrl::fromLocalFile(audioPath + "eat.wav"));
-    eatSound.setVolume(80);
-    gameOverSound.setMedia(QUrl::fromLocalFile(audioPath + "Gunshot1.wav"));
-    gameOverSound.setVolume(50);
-    songButton.setMedia(QUrl::fromLocalFile(audioPath + "buttom.wav"));
-    songButton.setVolume(80);
+    QString audioPath = QCoreApplication::applicationDirPath() + "/audio/";
+    if (!QFileInfo(audioPath + "ambient.wav").exists()) {
+        audioPath = QDir::currentPath() + "/audio/";
+    }
+
+    if (QFileInfo(audioPath + "ambient.wav").exists()) {
+        ambientSound.setSource(QUrl::fromLocalFile(audioPath + "ambient.wav"));
+        ambientSound.setLoopCount(QSoundEffect::Infinite);
+        ambientSound.setVolume(0.2);
+    }
+    if (QFileInfo(audioPath + "eat.wav").exists()) {
+        eatSound.setSource(QUrl::fromLocalFile(audioPath + "eat.wav"));
+        eatSound.setVolume(0.8);
+    }
+    if (QFileInfo(audioPath + "Gunshot1.wav").exists()) {
+        gameOverSound.setSource(QUrl::fromLocalFile(audioPath + "Gunshot1.wav"));
+        gameOverSound.setVolume(0.5);
+    }
+    if (QFileInfo(audioPath + "buttom.wav").exists()) {
+        songButton.setSource(QUrl::fromLocalFile(audioPath + "buttom.wav"));
+        songButton.setVolume(0.8);
+    }
 
     playButton = new QPushButton("Play", this);
     retryButton = new QPushButton("Reintentar", this);
@@ -45,7 +56,10 @@ void Serpiente::startGame() {
     gameClock.restart();
     generateFood();
     timer->start(100);
-    ambientSound.play();
+    if (!ambientSound.source().isEmpty()) {
+        ambientSound.stop();
+        ambientSound.play();
+    }
     playButton->hide();
     retryButton->hide();
     setFocus();
@@ -73,33 +87,37 @@ void Serpiente::keyPressEvent(QKeyEvent *event) {
     switch (event->key()) {
     case Qt::Key_Up:
         if (direction != 2) { // Prevent reversing
-            songButton.stop();
-            songButton.setPosition(0);
-            songButton.play();
+            if (!songButton.source().isEmpty()) {
+                songButton.stop();
+                songButton.play();
+            }
             direction = 0;
         }
         break;
     case Qt::Key_Right:
         if (direction != 3) {
-            songButton.stop();
-            songButton.setPosition(0);
-            songButton.play();
+            if (!songButton.source().isEmpty()) {
+                songButton.stop();
+                songButton.play();
+            }
             direction = 1;
         }
         break;
     case Qt::Key_Down:
         if (direction != 0) {
-            songButton.stop();
-            songButton.setPosition(0);
-            songButton.play();
+            if (!songButton.source().isEmpty()) {
+                songButton.stop();
+                songButton.play();
+            }
             direction = 2;
         }
         break;
     case Qt::Key_Left:
         if (direction != 1) {
-            songButton.stop();
-            songButton.setPosition(0);
-            songButton.play();
+            if (!songButton.source().isEmpty()) {
+                songButton.stop();
+                songButton.play();
+            }
             direction = 3;
         }
         break;
@@ -166,9 +184,10 @@ void Serpiente::moveSnake() {
         gameOver = true;
         elapsedSeconds = static_cast<int>(gameClock.elapsed() / 1000);
         timer->stop();
-        gameOverSound.stop();
-        gameOverSound.setPosition(0);
-        gameOverSound.play();
+        if (!gameOverSound.source().isEmpty()) {
+            gameOverSound.stop();
+            gameOverSound.play();
+        }
         retryButton->show();
         retryButton->raise();
         update();
@@ -180,9 +199,10 @@ void Serpiente::moveSnake() {
     if (head == food) {
         ++score;
         elapsedSeconds = static_cast<int>(gameClock.elapsed() / 1000);
-        eatSound.stop();
-        eatSound.setPosition(0);
-        eatSound.play();
+        if (!eatSound.source().isEmpty()) {
+            eatSound.stop();
+            eatSound.play();
+        }
         generateFood();
     } else {
         snake.removeLast();

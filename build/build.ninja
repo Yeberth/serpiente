@@ -189,7 +189,7 @@ build Serpiente_autogen/timestamp Serpiente_autogen/mocs_compilation.cpp | ${cma
 #############################################
 # Phony custom command for CMakeFiles/Serpiente_autogen_timestamp_deps
 
-build CMakeFiles/Serpiente_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/Serpiente_autogen_timestamp_deps: phony /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13 /usr/lib/qt5/bin/moc /usr/lib/x86_64-linux-gnu/libQt5Multimedia.so.5.15.13
+build CMakeFiles/Serpiente_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/Serpiente_autogen_timestamp_deps: phony /usr/lib/x86_64-linux-gnu/libQt5Multimedia.so.5.15.13 /usr/lib/qt5/bin/moc /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13
 
 
 #############################################
