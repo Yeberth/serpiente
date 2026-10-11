@@ -20,19 +20,19 @@ Serpiente::Serpiente(QWidget *parent) : QWidget(parent) {
     if (QFileInfo(audioPath + "ambient.wav").exists()) {
         ambientSound.setSource(QUrl::fromLocalFile(audioPath + "ambient.wav"));
         ambientSound.setLoopCount(QSoundEffect::Infinite);
-        ambientSound.setVolume(0.2);
+        ambientSound.setVolume(0.55);
     }
     if (QFileInfo(audioPath + "eat.wav").exists()) {
         eatSound.setSource(QUrl::fromLocalFile(audioPath + "eat.wav"));
-        eatSound.setVolume(0.8);
+        eatSound.setVolume(0.18);
     }
     if (QFileInfo(audioPath + "Gunshot1.wav").exists()) {
         gameOverSound.setSource(QUrl::fromLocalFile(audioPath + "Gunshot1.wav"));
-        gameOverSound.setVolume(0.5);
+        gameOverSound.setVolume(0.12);
     }
     if (QFileInfo(audioPath + "buttom.wav").exists()) {
         songButton.setSource(QUrl::fromLocalFile(audioPath + "buttom.wav"));
-        songButton.setVolume(0.8);
+        songButton.setVolume(0.14);
     }
 
     playButton = new QPushButton("Play", this);
